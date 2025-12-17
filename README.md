@@ -1,6 +1,4 @@
-Project Math Fi
-Open Source Financial Mathematics Calculator
-Project Math Fi is a lightweight, open-source web-based calculator designed for performing common financial mathematics calculations. Built with PHP for server-side processing and JavaScript for interactive client-side functionality, it provides an easy-to-use interface for students, professionals, and anyone needing quick financial computations.FeaturesMultiple financial calculation tools (e.g., compound interest, annuities, depreciation, NPV, IRR, and more – modularly organized)
+Project Math FiOpen Source Financial Mathematics CalculatorProject Math Fi is a lightweight, open-source web-based calculator designed for performing common financial mathematics calculations. Built with PHP for server-side processing and JavaScript for interactive client-side functionality, it provides an easy-to-use interface for students, professionals, and anyone needing quick financial computations.FeaturesMultiple financial calculation tools (e.g., compound interest, annuities, depreciation, NPV, IRR, and more – modularly organized)
 Clean and responsive user interface
 Client-side interactivity via JavaScript
 Server-side calculation logic in PHP for accuracy and security
