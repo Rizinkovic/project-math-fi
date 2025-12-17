@@ -1,0 +1,154 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    padding-top: 80px;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+/* Header (Navbar) */
+.navbar {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #007BFF;
+        padding: 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  min-width: 200px; 
+}
+
+.answer {
+    text-align: center;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.btn {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.note {
+            margin-bottom: 20px;
+        }
+        .operation {
+            margin-bottom: 20px;
+        }
+
+
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
+.answer table, .answer th, .answer td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.answer th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.answer tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
