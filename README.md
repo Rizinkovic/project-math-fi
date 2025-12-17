@@ -122,7 +122,7 @@ This project is unlicensed — use at your own risk.
 
 ---
 
-If you want this version cleaned up with bullet lists generated from real function names in `operations/`, share those filenames or content and I’ll update accordingly.
+READMe written with ChatGPT but the entire website was coded by me.
 
 [1]: https://github.com/Rizinkovic/project-math-fi "GitHub - Rizinkovic/project-math-fi: Open source financial maths calculator made with PHP & JavaScript."
 
